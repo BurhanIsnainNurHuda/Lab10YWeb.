@@ -148,3 +148,14 @@ File: `FormBuilder.php`
      ->addField("nim", "NIM")
      ->render();
     ?>
+
+Konsep OOP yang diterapkan:
+
+Method Chaining: addField()->addField()->render()
+
+Array Property: Menyimpan field dalam array
+
+Dynamic Rendering: Form dibuat berdasarkan data array
+
+Screenshot:
+<img width="1905" height="953" alt="image" src="https://github.com/user-attachments/assets/e17c596c-12b5-49e8-8ef7-7db6902e7ceb" />
