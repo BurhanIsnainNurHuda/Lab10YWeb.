@@ -92,3 +92,21 @@ File: `Mobil.php`
     $mobil2->setHarga(300000000);
     $mobil2->tampilInfo();
     ?>
+
+Konsep OOP yang diterapkan:
+
+Class: Template untuk membuat object
+
+Object: Instance dari class (`$mobil1`, `$mobil2`)
+
+Property: `$merk`, `$warna`, `$harga`
+
+Method: `tampilInfo()`, `setWarna()`, `getHarga()`
+
+Constructor: `__construct()` untuk inisialisasi
+
+Encapsulation: Property `private`, method `public`
+
+Screenshot:
+<img width="1900" height="957" alt="image" src="https://github.com/user-attachments/assets/62f88668-95c2-46f9-b77b-db50672b1d11" />
+
