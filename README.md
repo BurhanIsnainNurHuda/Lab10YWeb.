@@ -110,3 +110,41 @@ Encapsulation: Property `private`, method `public`
 Screenshot:
 <img width="1900" height="957" alt="image" src="https://github.com/user-attachments/assets/62f88668-95c2-46f9-b77b-db50672b1d11" />
 
+### Langkah 3: Class FormBuilder
+
+File: `FormBuilder.php`
+
+    <?php
+    class FormBuilder {
+    private $fields = [];
+    
+    public function addField($name, $label) {
+        $this->fields[] = [
+            'name' => $name,
+            'label' => $label
+        ];
+        return $this; // Fluent interface
+    }
+    
+    public function render() {
+        echo '<form method="POST" style="max-width: 400px; margin: 20px auto; padding: 20px; border: 1px solid #ccc;">';
+        
+        foreach ($this->fields as $field) {
+            echo '<div style="margin-bottom: 15px;">';
+            echo '<label>' . $field['label'] . '</label><br>';
+            echo '<input type="text" name="' . $field['name'] . '" style="width: 100%; padding: 8px;">';
+            echo '</div>';
+        }
+        
+        echo '<button type="submit" style="background: blue; color: white; padding: 10px 20px; border: none;">Submit</button>';
+        echo '</form>';
+    }
+    }
+
+    // Penggunaan
+    $form = new FormBuilder();
+     $form->addField("nama", "Nama Lengkap")
+     ->addField("email", "Email")
+     ->addField("nim", "NIM")
+     ->render();
+    ?>
