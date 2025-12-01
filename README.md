@@ -159,3 +159,52 @@ Dynamic Rendering: Form dibuat berdasarkan data array
 
 Screenshot:
 <img width="1905" height="953" alt="image" src="https://github.com/user-attachments/assets/e17c596c-12b5-49e8-8ef7-7db6902e7ceb" />
+
+### Hasil yang Dicapai
+### 1. Konsep OOP yang Dipahami:
+Class & Object: Membuat blueprint dan instance
+
+Property & Method: Data dan fungsi dalam class
+
+Constructor: Inisialisasi object
+
+Getter & Setter: Akses data yang terkapsulasi
+
+Method Chaining: Fluent interface
+
+CRUD Operations: Database manipulation
+
+#### 2. Program yang Dibuat:
+Class Mobil dengan properti dan method
+
+Class FormBuilder untuk membuat form dinamis
+
+Class Database untuk operasi CRUD
+
+Dashboard utama yang mengintegrasikan semua class
+
+### Kesimpulan
+Dari praktikum ini, saya telah:
+
+Memahami konsep dasar OOP dalam PHP
+
+Mampu membuat class dan object dengan properti dan method
+
+Mengimplementasikan encapsulation dengan property private
+
+Membuat program modular dengan class terpisah
+
+Mengintegrasikan database dengan OOP approach
+
+Membuat aplikasi sederhana yang menggabungkan semua konsep
+
+### Implementasi OOP membuat kode lebih:
+
+Terstruktur: Class dan object terorganisir
+
+Reusable: Class bisa dipakai di banyak tempat
+
+Maintainable: Mudah dikembangkan dan diperbaiki
+
+Secure: Encapsulation melindungi data
+
